@@ -81,3 +81,13 @@ C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\libra
 C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\res.flag
 C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\myNotes.dll
 C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\myNotes.pdb
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\myNotes.nuget.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Annotations.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Compat.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Vector.Drawable.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Media.Compat.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Core.Utils.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Core.UI.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Fragment.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.Animated.Vector.Drawable.dll.stamp
+C:\Users\silve\OneDrive\Dokumendid\GitHub\SilverNotes\myNotes\obj\Debug\81\XbdMerge\Xamarin.Android.Support.v7.AppCompat.dll.stamp
