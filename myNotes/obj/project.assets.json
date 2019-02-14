@@ -2,6 +2,162 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v8.1": {
+      "Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Vector.Drawable": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.Annotations/25.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Annotations.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.Compat/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Annotations": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Compat.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.Core.UI/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Compat": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Core.UI.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.Core.Utils/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Compat": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Core.Utils.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.Fragment/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Compat": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Core.UI": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Core.Utils": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Media.Compat": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Fragment.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.Media.Compat/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Compat": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Media.Compat.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.v7.AppCompat/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Compat": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Core.UI": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Core.Utils": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Fragment": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Media.Compat": "25.3.1",
+          "Crosslight.Xamarin.Android.Support.Vector.Drawable": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.v7.AppCompat.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Android.Support.Vector.Drawable/25.3.1": {
+        "type": "package",
+        "dependencies": {
+          "Crosslight.Xamarin.Android.Support.Compat": "25.3.1",
+          "Crosslight.Xamarin.Build.Download": "25.3.1"
+        },
+        "compile": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll": {}
+        },
+        "build": {
+          "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Vector.Drawable.targets": {}
+        }
+      },
+      "Crosslight.Xamarin.Build.Download/25.3.1": {
+        "type": "package",
+        "build": {
+          "build/Crosslight.Xamarin.Build.Download.props": {},
+          "build/Crosslight.Xamarin.Build.Download.targets": {}
+        }
+      },
       "Microsoft.AppCenter/1.13.0": {
         "type": "package",
         "compile": {
@@ -69,6 +225,33 @@
           "lib/MonoAndroid403/Microsoft.AppCenter.Distribute.dll": {}
         }
       },
+      "SQLite/3.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libsqlite3.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libsqlite3.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win7-x64/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/sqlite3.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
       "sqlite-net-pcl/1.5.231": {
         "type": "package",
         "dependencies": {
@@ -125,6 +308,39 @@
         },
         "runtime": {
           "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "System.Data.SQLite/1.0.109.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SQLite.Core": "1.0.109.2"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.109.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.SQLite.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
         }
       },
       "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
@@ -375,8 +591,146 @@
     }
   },
   "libraries": {
+    "Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable/25.3.1": {
+      "sha512": "FYUxfKRKZ9oyjzE5Fezgdqe1Mw+7d0sQ5zu0WeHjJZOeZk34t28ADO4hPU3KQaR3YOy7brAZ0bFkqLhuZcBwuA==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.animated.vector.drawable/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Animated.Vector.Drawable.targets",
+        "crosslight.xamarin.android.support.animated.vector.drawable.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.animated.vector.drawable.nuspec",
+        "lib/MonoAndroid70/.DS_Store",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Animated.Vector.Drawable.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.Annotations/25.3.1": {
+      "sha512": "/Yl0ODxYj+8n5kFL6nsE70G/rqj34HIrzWdkfsTnVgnZT6VhQzfxEzn0te+MOEP3KPIvSyTHHV4jlbvlPg9IRQ==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.annotations/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Annotations.targets",
+        "crosslight.xamarin.android.support.annotations.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.annotations.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Annotations.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.Compat/25.3.1": {
+      "sha512": "9coGLlV2DrUsoxhVuvb1xetSTS0lerAstJLLZPuKpTK8UTQR/l6VPJXdn2Snoxf3ye6DsHc+7Q2yndM0M1+JNg==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.compat/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Compat.targets",
+        "crosslight.xamarin.android.support.compat.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.compat.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Compat.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.Core.UI/25.3.1": {
+      "sha512": "m3q+1PVZtt7xp4mREUDjzH4yznLxBGhxLgPgTy7d46mZpPTb1L/XhzkHTvlGhodXo2KVf+nAI5pevnwAmASMsw==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.core.ui/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Core.UI.targets",
+        "crosslight.xamarin.android.support.core.ui.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.core.ui.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Core.UI.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.Core.Utils/25.3.1": {
+      "sha512": "Exr26N7YcYvhboMmDBfEx8bvAj63W976k08DWMhQJSkj6BMsgN4b61GvKf6SmkxBxKh9v3W5ITBwsUEVTQiw3Q==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.core.utils/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Core.Utils.targets",
+        "crosslight.xamarin.android.support.core.utils.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.core.utils.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Core.Utils.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.Fragment/25.3.1": {
+      "sha512": "0xGjPuYg32Y78FH8gP+3DAfg2Hk6tlXc00OE/O7K5wOlLO3x9+BG6MrFK9pCDDbhlxmSAPaksoB7DFX/R4QzIg==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.fragment/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Fragment.targets",
+        "crosslight.xamarin.android.support.fragment.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.fragment.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Fragment.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.Media.Compat/25.3.1": {
+      "sha512": "wtOfG2Df5ZXTmBTklwLG4kyG2ZdRxCv2C5hSbcnBJjkONbi8z2wTjA6Z0zlbQxYYf0+a0C3StT8hmCCxBKoIlw==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.media.compat/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Media.Compat.targets",
+        "crosslight.xamarin.android.support.media.compat.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.media.compat.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Media.Compat.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.v7.AppCompat/25.3.1": {
+      "sha512": "7YdVAwT2rrwG3pW0DRbhcw6dIWFPp5ajixswJQhlnUlvcxgHEx+Q272GdIURmq8vKSV9l3zq1aweUUm9OeU0rg==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.v7.appcompat/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.v7.AppCompat.targets",
+        "crosslight.xamarin.android.support.v7.appcompat.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.v7.appcompat.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.v7.AppCompat.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Android.Support.Vector.Drawable/25.3.1": {
+      "sha512": "1tA2HzH1DSmjby3skVC3d/mzCWHE5xysCGifdJdjsIEV1SXMPQZqo30PUcMJyccgBccQxnFDkk6DvjBXmFmhiw==",
+      "type": "package",
+      "path": "crosslight.xamarin.android.support.vector.drawable/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid70/Crosslight.Xamarin.Android.Support.Vector.Drawable.targets",
+        "build/MonoAndroid70/Xamarin.Android.Support.Tasks.VectorDrawable.dll",
+        "crosslight.xamarin.android.support.vector.drawable.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.android.support.vector.drawable.nuspec",
+        "lib/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.dll"
+      ]
+    },
+    "Crosslight.Xamarin.Build.Download/25.3.1": {
+      "sha512": "jXoYvW3yBN1+sY1HCTRulfFCsVz3JAq/RvfVNnICtTy4b35Vz7SzQpd7BD5Cj7Z4uZbc3sNayYNWwsEoxYn+QA==",
+      "type": "package",
+      "path": "crosslight.xamarin.build.download/25.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/Crosslight.Xamarin.Build.Download.props",
+        "build/Crosslight.Xamarin.Build.Download.targets",
+        "build/Mono.Cecil.dll",
+        "build/Newtonsoft.Json.dll",
+        "build/System.Net.Http.Formatting.dll",
+        "build/Xamarin.Build.Download.dll",
+        "content/THIRD-PARTY-NOTICES.txt",
+        "crosslight.xamarin.build.download.25.3.1.nupkg.sha512",
+        "crosslight.xamarin.build.download.nuspec"
+      ]
+    },
     "Microsoft.AppCenter/1.13.0": {
-      "sha512": "PO3qxIECpY2UAQDOJC0WFGomdDJr+Keg/36c1rJKcnA/qmpv1y9YuYc67xYDvW4b3eRnw+mzB+IJQcTBLQEgrw==",
+      "sha512": "klt1cUPSa2ZI0elNTrFXiQo51mdh6DUpmiurZK68YdubpiPW3dJ3K/IFfykZPSfh1ALBuDar6DMpJJGa3Mn2wg==",
       "type": "package",
       "path": "microsoft.appcenter/1.13.0",
       "files": [
@@ -394,7 +748,7 @@
       ]
     },
     "Microsoft.AppCenter.Analytics/1.13.0": {
-      "sha512": "zBHlE8mtfEZLlk3LrodsTwkGNknhbXLFKIZCf6qKXV63kBrv5dACU55ZkDTMoAWml5VIwsGgzfatog+vXTH6Pg==",
+      "sha512": "XpvEnf0Vx2MgREOfjBXyFRdRARNTv44NuIV/IujEkAcibGJhQzMu03PChAVACKsBm8zvsMNxfHT51JSklS7Jrw==",
       "type": "package",
       "path": "microsoft.appcenter.analytics/1.13.0",
       "files": [
@@ -412,7 +766,7 @@
       ]
     },
     "Microsoft.AppCenter.Crashes/1.13.0": {
-      "sha512": "4N/4TalTlQaftmlB3H+vQAWscF+zFMWnP5GuJyXmi/aqN86xuZ1eUypCbGi6CAjPkWkAzn18znoAyT7JYJuQfg==",
+      "sha512": "JhQpYJnBNeLcOmIsVruGirtVgFfAwBQ3maiUxs5GXHoU7lWcdOt4vA480THinHwjeO8nO6CP//4RB7OUQ3ieCA==",
       "type": "package",
       "path": "microsoft.appcenter.crashes/1.13.0",
       "files": [
@@ -440,7 +794,7 @@
       ]
     },
     "Microsoft.AppCenter.Distribute/1.13.0": {
-      "sha512": "Eax3eO/kV8wRR4YFj7KGnYQ5zLPLO6xlgy3tDvuB/g4xhIPMNYZKf+bkrxv2t6rjB6T7i0SeiqqrtlVLshh/0Q==",
+      "sha512": "PDMo2BAB5LyjRxDz5186l4E6UlMZJDO73/AGEyHTOdnWDQ+vzX23vZyRQbZx5XlsLRex0Xps6dPNjaYcCRGDgA==",
       "type": "package",
       "path": "microsoft.appcenter.distribute/1.13.0",
       "files": [
@@ -454,6 +808,26 @@
         "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Distribute.dll",
         "microsoft.appcenter.distribute.1.13.0.nupkg.sha512",
         "microsoft.appcenter.distribute.nuspec"
+      ]
+    },
+    "SQLite/3.13.0": {
+      "sha512": "MJfRiz2p6aMVOxrxGMdVzhpzI0oxTgZSwC8eVuOpV8L7yYaFUu8q/OFYwv9P0/aZ/pdEu24O6gma6wZJMTun9A==",
+      "type": "package",
+      "path": "sqlite/3.13.0",
+      "files": [
+        ".nupkg.metadata",
+        "build/net45/SQLite.props",
+        "lib/netstandard1.0/_._",
+        "runtimes/linux-x64/native/libsqlite3.so",
+        "runtimes/osx-x64/native/libsqlite3.dylib",
+        "runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll",
+        "runtimes/win7-x64/native/sqlite3.dll",
+        "runtimes/win7-x86/native/sqlite3.dll",
+        "sqlite-version.txt",
+        "sqlite.3.13.0.nupkg.sha512",
+        "sqlite.nuspec"
       ]
     },
     "sqlite-net-pcl/1.5.231": {
@@ -567,6 +941,65 @@
         "lib/MonoAndroid/SQLitePCLRaw.provider.e_sqlite3.dll",
         "sqlitepclraw.provider.e_sqlite3.android.1.1.11.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.android.nuspec"
+      ]
+    },
+    "System.Data.SQLite/1.0.109.2": {
+      "sha512": "AG6LubzALAEpp+pN36q2X9hGKHb7sGOUy6HjACDGZ1UVgmr7RKPgsAxlOdAidgvDr5fS3JumyEWRcI0zwOK+SQ==",
+      "type": "package",
+      "path": "system.data.sqlite/1.0.109.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.1.0.109.2.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.109.2": {
+      "sha512": "c/81hTKf3iOR38329an1Ol0CB89t+MpL/J9Btz1WaZ/64hBXKmzFWV/qfclNtZmZoErgq6XcW9XgKpFnHqfhAg==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.109.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net20/System.Data.SQLite.Core.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/System.Data.SQLite.Core.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/System.Data.SQLite.Core.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/System.Data.SQLite.Core.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "build/net46/System.Data.SQLite.Core.targets",
+        "build/net46/x64/SQLite.Interop.dll",
+        "build/net46/x86/SQLite.Interop.dll",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.dll.config",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.dll.config",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.dll.config",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.dll.config",
+        "lib/net451/System.Data.SQLite.xml",
+        "lib/net46/System.Data.SQLite.dll",
+        "lib/net46/System.Data.SQLite.dll.config",
+        "lib/net46/System.Data.SQLite.xml",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll.config",
+        "lib/netstandard2.0/System.Data.SQLite.xml",
+        "runtimes/linux-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/osx-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/win-x64/native/netstandard2.0/SQLite.Interop.dll",
+        "runtimes/win-x86/native/netstandard2.0/SQLite.Interop.dll",
+        "system.data.sqlite.core.1.0.109.2.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
       ]
     },
     "Xamarin.Android.Arch.Core.Common/1.0.0.1": {
@@ -790,29 +1223,33 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v8.1": [
+      "Crosslight.Xamarin.Android.Support.v7.AppCompat >= 25.3.1",
+      "Microsoft.AppCenter >= 1.13.0",
       "Microsoft.AppCenter.Analytics >= 1.13.0",
       "Microsoft.AppCenter.Crashes >= 1.13.0",
       "Microsoft.AppCenter.Distribute >= 1.13.0",
+      "SQLite >= 3.13.0",
+      "System.Data.SQLite >= 1.0.109.2",
       "Xamarin.Android.Support.Design >= 27.0.2.1",
       "Xamarin.Android.Support.v7.RecyclerView >= 27.0.2.1",
       "sqlite-net-pcl >= 1.5.231"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\opilane\\.nuget\\packages\\": {}
+    "C:\\Users\\silve\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\Documents\\SilverNotes\\myNotes\\myNotes.csproj",
+      "projectUniqueName": "C:\\Users\\silve\\OneDrive\\Dokumendid\\GitHub\\SilverNotes\\myNotes\\myNotes.csproj",
       "projectName": "myNotes",
-      "projectPath": "C:\\Users\\opilane\\Documents\\SilverNotes\\myNotes\\myNotes.csproj",
-      "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\Documents\\SilverNotes\\myNotes\\obj\\",
+      "projectPath": "C:\\Users\\silve\\OneDrive\\Dokumendid\\GitHub\\SilverNotes\\myNotes\\myNotes.csproj",
+      "packagesPath": "C:\\Users\\silve\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\silve\\OneDrive\\Dokumendid\\GitHub\\SilverNotes\\myNotes\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\silve\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -831,6 +1268,14 @@
     "frameworks": {
       "monoandroid81": {
         "dependencies": {
+          "Crosslight.Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[25.3.1, )"
+          },
+          "Microsoft.AppCenter": {
+            "target": "Package",
+            "version": "[1.13.0, )"
+          },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",
             "version": "[1.13.0, )"
@@ -842,6 +1287,14 @@
           "Microsoft.AppCenter.Distribute": {
             "target": "Package",
             "version": "[1.13.0, )"
+          },
+          "SQLite": {
+            "target": "Package",
+            "version": "[3.13.0, )"
+          },
+          "System.Data.SQLite": {
+            "target": "Package",
+            "version": "[1.0.109.2, )"
           },
           "Xamarin.Android.Support.Design": {
             "target": "Package",
